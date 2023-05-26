@@ -1,12 +1,15 @@
 # Assignment 2
 
 1. What are the two values of the Boolean data type? How do you write them?
+
 Answer: `True` and `False` are the two values of the Boolean data type. We write them as `True` and `False`.
 
 2. What are the three different types of boolean operators?
+
 Answer: The three different types of boolean operators are `AND`, `OR` and `NOT`.
 
 3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+
 Answer:  
 
 ### AND Operator
@@ -55,6 +58,7 @@ not (5 > 4) : False, because 5 is greater than 4 and the NOT operator will retur
 ```
 
 5. What are the six comparison operators?
+
 Answer: The six comparison operators are:
 - `==` : Equal to
 - `!=` : Not equal to
@@ -64,6 +68,7 @@ Answer: The six comparison operators are:
 - `<=` : Less than or equal to
 
 6. How do you tell the difference between the equal to and assignment operators Describe a condition and when you would use one.
+
 Answer: The equal to operator is `==` and the assignment operator is `=`. The equal to operator is used to compare two values whereas the assignment operator is used to assign a value to a variable. For example, `a = 10` is an assignment statement whereas `a == 10` is a comparison statement.
 
 7. Identify the three blocks in this code:
@@ -81,7 +86,7 @@ print('spam')
 
 Answer: Very first let me explain what `block` means in python. So, you can simply consider blocks of code as paragraphs in essays and these blocks are based on the indentation. So, the three blocks in the above code are:
 
-- everything inside the first if statement
+- BLOCK 1: everything inside the first if statement
 ```
     print('eggs')
     if spam > 5:
@@ -90,17 +95,18 @@ Answer: Very first let me explain what `block` means in python. So, you can simp
         print('ham')
     print('spam')
 ```
-- statement inside the nested if
+- BLOCK 2: statement inside the nested if
 ```
 print('bacon')
 ```
-- statement inside the nested else
+- BLOCK 3: statement inside the nested else
 ```
 print('ham')
 ```
 
 
 8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+
 Answer:
 ```
 if spam == 1:
@@ -112,20 +118,26 @@ else:
 ```
 
 9. If your programme is stuck in an endless loop, what keys you’ll press?
+
 Answer: `Ctrl + C`
 
 10. How can you tell the difference between break and continue?
+
 Answer: The break statement will stop the execution of the loop and the continue statement will skip the current iteration and continue with the next iteration.
 
 11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+
 Answer: There is no difference between range(10), range(0, 10) and range(0, 10, 1). They all will produce the same output. Because the default value of start is 0 and the default value of step is 1.
 
 12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+
 Answer:
+- Using for loop
 ```
 for i in range(1, 11):
     print(i)
 ```
+- Using while loop
 ```
 i = 1
 while i <= 10:
@@ -134,4 +146,5 @@ while i <= 10:
 ```
 
 13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+
 Answer: `spam.bacon()`
