@@ -177,3 +177,5 @@ while i <= 5:
     - The outer loop is used to print the rows.
     - The first inner loop is used to print the spaces.
     - The second inner loop is used to print the pipes.
+
+    - `2 * (5 - i) + 1` is used to calculate the number of pipes in each row. The number of pipes in each row is 9, 7, 5, 3, 1. So, the formula is `2 * (5 - i) + 1`. Here, `i` is the row number. So, when `i` is 1, the number of pipes is 9. When `i` is 2, the number of pipes is 7. When `i` is 3, the number of pipes is 5. When `i` is 4, the number of pipes is 3. When `i` is 5, the number of pipes is 1.
