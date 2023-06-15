@@ -35,7 +35,7 @@ def add(a, b):
 
 add(a=1, b=2)
 
-    ```
+````
 
 3. What is the purpose of the return statement in a function? Can a function have multiple return statements? Explain with an example.
 
