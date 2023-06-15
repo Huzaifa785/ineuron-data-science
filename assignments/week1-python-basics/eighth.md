@@ -197,4 +197,3 @@ def get_first_and_last_name(full_name):
 
 get_first_and_last_name('John Doe')
 ```
-````
