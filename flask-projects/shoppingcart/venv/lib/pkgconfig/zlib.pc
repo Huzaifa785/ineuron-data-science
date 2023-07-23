@@ -1,0 +1,13 @@
+prefix=/Users/safeemmohammed/Desktop/Huzaifa/ineuron-data-science/flask-projects/shoppingcart/venv
+exec_prefix=/Users/safeemmohammed/Desktop/Huzaifa/ineuron-data-science/flask-projects/shoppingcart/venv
+libdir=/Users/safeemmohammed/Desktop/Huzaifa/ineuron-data-science/flask-projects/shoppingcart/venv/lib
+sharedlibdir=/Users/safeemmohammed/Desktop/Huzaifa/ineuron-data-science/flask-projects/shoppingcart/venv/lib
+includedir=/Users/safeemmohammed/Desktop/Huzaifa/ineuron-data-science/flask-projects/shoppingcart/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

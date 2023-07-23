@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - Shopping Cart 🛍</title>
+  </head>
+  <body>
+    <h1>See, what's in your cart 🛒🛍</h1>
+    <hr />
+
+    <ul>
+      {% if cartItems == [] %}
+        <h2>Go shop! Your cart is empty!!! <a href="{{url_for("index")}}">Shop here 🛍</a></h2>
+      {% else %}
+      <h4>Total: ${{total}}</h4>
+      <h3>List of products 👇🏼</h3>
+        {% for item in cartItems %}
+          <li>
+              
+              {{ item.product_name }} - ${{ item.price }}
+             <form action="{{url_for("cart")}}" method="post">
+                <input type="hidden" name="id" value="{{item.id}}" />
+                <input type="submit" value="Remove" onclick="alert('{{item.product_name}} removed from cart!');   " />
+            </form>
+          </li>
+        {% endfor %}
+      {% endif %}
+    </ul>
+  </body>
+</html>

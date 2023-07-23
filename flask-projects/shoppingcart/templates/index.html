@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Shopping Cart 🛍</title>
+  </head>
+  <body>
+    <h1>Hey! Welcome to our shopping cart flask project 🛒🛍</h1>
+    <ul>
+      <li>Display a list of products on the homepage.</li>
+      <li>Each product should have a "Add to Cart" button.</li>
+      <li>
+        When the "Add to Cart" button is clicked, the product should be added to
+        the shopping cart.
+      </li>
+      <li>
+        Implement a route to view the shopping cart, showing the list of added
+        products.
+      </li>
+      <li>Each product in the cart should have a "Remove" button.</li>
+      <li>
+        When the "Remove" button is clicked, the product should be removed from
+        the cart.
+      </li>
+      <li>Display the total cost of all the items in the cart.</li>
+    </ul>
+    <hr />
+
+    <h3>List of products 👇🏼</h3>
+    <ul>
+      {% for i in products %}
+      <li>
+        {{ i.product_name }} - ${{ i.price }}
+        <form action="{{url_for("index")}}" method="post">
+            <input type="hidden" name="id" value="{{i.id}}" />
+            <input type="hidden" name="product_name" value="{{i.product_name}}" />
+            <input type="hidden" name="price" value="{{i.price}}" />
+            <input type="submit" value="Add to cart" onclick="alert('{{i.product_name}} added to cart!');   " />
+        </form>
+      </li> <br />
+      {% endfor %}
+    </ul>
+
+    <hr />
+
+    <h3>
+        <a href="{{url_for("cart")}}">
+            View Cart 🛒
+        </a>
+    </h6>
+  </body>
+</html>
