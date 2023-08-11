@@ -1,0 +1,67 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.104:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:14:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:14:39] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:14:39] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:14:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:14:58] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.104:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:17:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:17:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:17:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:17:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:17:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:17:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:17:12] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 11:18:12] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.43.145:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.104:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 20:18:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 20:18:27] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 20:18:27] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 20:18:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 20:18:53] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.104:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 23:30:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 23:30:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 23:30:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 23:31:18] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 23:36:01] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:root:400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 23:36:21] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 23:49:45] "[33mGET /test HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.104:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [04/Aug/2023 23:50:04] "GET /test HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.43.145:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2023 12:19:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2023 12:19:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2023 12:19:18] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Aug/2023 12:19:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
