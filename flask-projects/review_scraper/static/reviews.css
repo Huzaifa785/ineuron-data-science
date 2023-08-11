@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier Prime", monospace;
+  color: whitesmoke;
+}
+
+.container {
+  background-image: url("https://images.pexels.com/photos/7135037/pexels-photo-7135037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brand-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brand-div p {
+  color: whitesmoke;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 2rem;
+  margin-top: -20px;
+}
+
+h1 {
+  /* add text in gradient of whites */
+  background: linear-gradient(to right, #ffffff, #7615ca, #fff);
+  background-size: 80%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  color: whitesmoke;
+  /* keep it at bottom of page */
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+
+.back-to-home {
+    margin-top: 30px;
+    color: wheat;
+    font-size: 20px;
+}
+
+a {
+    color: whitesmoke;
+}

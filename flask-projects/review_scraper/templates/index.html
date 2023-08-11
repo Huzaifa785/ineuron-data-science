@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Scraper</title>
+
+    <link rel="stylesheet" href="./static/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="brand-div">
+        <h1>Flipkart Review Scraper 🛠</h1>
+        <p>
+          Harness the power of data with our innovative tool, designed to
+          extract and analyze valuable insights from Flipkart reviews
+          effortlessly, empowering informed decision-making.
+        </p>
+      </div>
+      <div>
+        <form action="/review" method="POST">
+          <input
+            type="text"
+            name="product_url"
+            id="search"
+            placeholder="Enter Product URL 🔎"
+            class="search-box"
+          />
+          <input class="btn" type="submit" value="Get Review" />
+        </form>
+      </div>
+
+      <footer>
+        Made with ❤️ by
+        <a href="https://www.linkedin.com/in/abdullah-bin-hawail/">Abdullah</a>
+        and <a href="https://www.linkedin.com/in/immdhuzaifa/">Huzaifa</a>
+      </footer>
+    </div>
+  </body>
+</html>

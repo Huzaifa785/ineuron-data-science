@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews</title>
+
+    <link rel="stylesheet" href="./static/reviews.css" />
+  </head>
+  <body>
+   <div class="container">
+    <h1>{{product_name}}</h1>
+
+    <table border="2">
+      <thead>
+        <tr>
+          <td>Sr. No</td>
+          <td>Name</td>
+          <td>Rating</td>
+          <td>Title</td>
+          <td>Review</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for review in product_info %}
+            <tr>
+                <td>{{review['id']}}</td>
+                <td>{{review['name']}}</td>
+                <td>{{review['rating']}}</td>
+                <td>{{review['title']}}</td>
+                <td>{{review['review']}}</td>
+            </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <div class="back-to-home">
+        <a href="/">Get reviews for another product 🚀</a>
+    </div>
+
+    <footer>
+        Made with ❤️ by
+        <a href="https://www.linkedin.com/in/abdullah-bin-hawail/">Abdullah</a>
+        and <a href="https://www.linkedin.com/in/immdhuzaifa/">Huzaifa</a>
+    </footer>
+   </div>
+  </body>
+</html>
