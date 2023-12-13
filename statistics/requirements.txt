@@ -3,3 +3,4 @@ numpy
 scipy
 statistics
 seaborn
+statsmodels
